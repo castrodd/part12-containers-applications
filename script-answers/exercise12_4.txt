@@ -1,0 +1,181 @@
+Script started on Wed Feb  8 14:49:23 2023
+Restored session: Wed Feb  8 14:37:29 PST 2023
+]7;file://Daniels-Air/Users/ddcastro/Development/part12-containers-applications/script-answers[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Daniels-Air/Users/ddcastro/Development/part12-containers-applications/script-answers]2;ddcastro@Daniels-Air]1;..cript-answers]7;file://Daniels-Air/Users/ddcastro/Development/part12-containers-applications/script-answers[0m[27m[24m[J[[31m14:49[39m] [36mddcastro[39m [32mscript-answers[39m on [35mmain[39m [37m#[39m [K[?1h=[?2004hscriptls    mv typescript exercise12_3.txt[30Dls                            [28Dexitdocker start -i stoic_hugle[?1l>[?2004l
+]2;docker start -i stoic_hugle]1;docker[?2004h]0;root@282d95780471: /root@282d95780471:/# [K]0;root@282d95780471: /root@282d95780471:/# apt   exitnano /usr/src/app/index.jsexit[Kapt-get -y install nano   odejs
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 78%Reading package lists... 78%Reading package lists... 79%Reading package lists... 79%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates javascript-common libbrotli1 libc-ares2 libicu70 libjs-highlight.js libnghttp2-14 libnode72 libuv1 nodejs-doc
+  openssl
+Suggested packages:
+  apache2 | lighttpd | httpd npm
+The following NEW packages will be installed:
+  ca-certificates javascript-common libbrotli1 libc-ares2 libicu70 libjs-highlight.js libnghttp2-14 libnode72 libuv1 nodejs
+  nodejs-doc openssl
+0 upgraded, 12 newly installed, 0 to remove and 5 not upgraded.
+Need to get 25.6 MB of archives.
+After this operation, 89.7 MB of additional disk space will be used.
+0% [Working]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]0% [Connecting to ports.ubuntu.com]                                   0% [Waiting for headers]                        Get:1 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 openssl arm64 3.0.2-0ubuntu1.8 [1161 kB]
+0% [1 openssl 14.2 kB/1161 kB 1%]0% [1 openssl 120 kB/1161 kB 10%]3% [1 openssl 1107 kB/1161 kB 95%]                                  5% [Working]            Get:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 ca-certificates all 20211016ubuntu0.22.04.1 [144 kB]
+5% [2 ca-certificates 1195 B/144 kB 1%]                                       7% [Waiting for headers]                        Get:3 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libicu70 arm64 70.1-2 [10.5 MB]
+7% [3 libicu70 21.0 kB/10.5 MB 0%]29% [3 libicu70 6826 kB/10.5 MB 65%]                                    42% [Waiting for headers]                         Get:4 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libnghttp2-14 arm64 1.43.0-1build3 [75.4 kB]
+42% [4 libnghttp2-14 36.3 kB/75.4 kB 48%]                                         44% [Working]             Get:5 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libuv1 arm64 1.43.0-1 [89.9 kB]
+44% [5 libuv1 0 B/89.9 kB 0%]                             46% [Working]             Get:6 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 javascript-common all 11+nmu1 [5936 B]
+46% [6 javascript-common 0 B/5936 B 0%]                                       47% [Waiting for headers]                         Get:7 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libbrotli1 arm64 1.0.9-2build6 [314 kB]
+48% [7 libbrotli1 196 kB/314 kB 63%]                                    50% [Waiting for headers]                         Get:8 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 libjs-highlight.js all 9.18.5+dfsg1-1 [367 kB]
+50% [8 libjs-highlight.js 24.9 kB/367 kB 7%]                                            53% [Waiting for headers]                         Get:9 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libc-ares2 arm64 1.18.1-1build1 [44.4 kB]
+53% [9 libc-ares2 36.9 kB/44.4 kB 83%]                                      55% [Waiting for headers]                         Get:10 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 libnode72 arm64 12.22.9~dfsg-1ubuntu3 [10.3 MB]
+55% [10 libnode72 6057 B/10.3 MB 0%]                                    89% [Waiting for headers]                         Get:11 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 nodejs-doc all 12.22.9~dfsg-1ubuntu3 [2409 kB]
+89% [11 nodejs-doc 18.4 kB/2409 kB 1%]                                      98% [Waiting for headers]                         Get:12 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 nodejs arm64 12.22.9~dfsg-1ubuntu3 [122 kB]
+98% [12 nodejs 30.3 kB/122 kB 25%]                                  100% [Working]              Fetched 25.6 MB in 9s (2751 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package openssl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4462 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.8_arm64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.8) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20211016ubuntu0.22.04.1_all.deb ...
+Unpacking ca-certificates (20211016ubuntu0.22.04.1) ...
+Selecting previously unselected package libicu70:arm64.
+Preparing to unpack .../02-libicu70_70.1-2_arm64.deb ...
+Unpacking libicu70:arm64 (70.1-2) ...
+Selecting previously unselected package libnghttp2-14:arm64.
+Preparing to unpack .../03-libnghttp2-14_1.43.0-1build3_arm64.deb ...
+Unpacking libnghttp2-14:arm64 (1.43.0-1build3) ...
+Selecting previously unselected package libuv1:arm64.
+Preparing to unpack .../04-libuv1_1.43.0-1_arm64.deb ...
+Unpacking libuv1:arm64 (1.43.0-1) ...
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../05-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libbrotli1:arm64.
+Preparing to unpack .../06-libbrotli1_1.0.9-2build6_arm64.deb ...
+Unpacking libbrotli1:arm64 (1.0.9-2build6) ...
+Selecting previously unselected package libjs-highlight.js.
+Preparing to unpack .../07-libjs-highlight.js_9.18.5+dfsg1-1_all.deb ...
+Unpacking libjs-highlight.js (9.18.5+dfsg1-1) ...
+Selecting previously unselected package libc-ares2:arm64.
+Preparing to unpack .../08-libc-ares2_1.18.1-1build1_arm64.deb ...
+Unpacking libc-ares2:arm64 (1.18.1-1build1) ...
+Selecting previously unselected package libnode72:arm64.
+Preparing to unpack .../09-libnode72_12.22.9~dfsg-1ubuntu3_arm64.deb ...
+Unpacking libnode72:arm64 (12.22.9~dfsg-1ubuntu3) ...
+Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../10-nodejs-doc_12.22.9~dfsg-1ubuntu3_all.deb ...
+Unpacking nodejs-doc (12.22.9~dfsg-1ubuntu3) ...
+Selecting previously unselected package nodejs.
+Preparing to unpack .../11-nodejs_12.22.9~dfsg-1ubuntu3_arm64.deb ...
+Unpacking nodejs (12.22.9~dfsg-1ubuntu3) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up libbrotli1:arm64 (1.0.9-2build6) ...
+Setting up libnghttp2-14:arm64 (1.43.0-1build3) ...
+Setting up libc-ares2:arm64 (1.18.1-1build1) ...
+Setting up libuv1:arm64 (1.43.0-1) ...
+Setting up libjs-highlight.js (9.18.5+dfsg1-1) ...
+Setting up openssl (3.0.2-0ubuntu1.8) ...
+Setting up libicu70:arm64 (70.1-2) ...
+Setting up libnode72:arm64 (12.22.9~dfsg-1ubuntu3) ...
+Setting up ca-certificates (20211016ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/aarch64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+124 added, 0 removed; done.
+Setting up nodejs-doc (12.22.9~dfsg-1ubuntu3) ...
+Setting up nodejs (12.22.9~dfsg-1ubuntu3) ...
+update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz because associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't exist
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+Processing triggers for ca-certificates (20211016ubuntu0.22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+[?2004h]0;root@282d95780471: /root@282d95780471:/# node -v
+[?2004lv12.22.9
+[?2004h]0;root@282d95780471: /root@282d95780471:/# apnode -vapt-get -y install nodejs      curl
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 78%Reading package lists... 78%Reading package lists... 79%Reading package lists... 79%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 9%Reading state information... Done
+The following additional packages will be installed:
+  libcurl4 libldap-2.5-0 libldap-common libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 publicsuffix
+Suggested packages:
+  libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  curl libcurl4 libldap-2.5-0 libldap-common libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4
+  publicsuffix
+0 upgraded, 11 newly installed, 0 to remove and 5 not upgraded.
+Need to get 1234 kB of archives.
+After this operation, 3422 kB of additional disk space will be used.
+0% [Working]            Get:1 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libpsl5 arm64 0.21.0-1.2build2 [58.3 kB]
+1% [1 libpsl5 14.2 kB/58.3 kB 24%]                                  6% [Working]            Get:2 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 publicsuffix all 20211207.1025-1 [129 kB]
+6% [2 publicsuffix 2643 B/129 kB 2%]                                    16% [Waiting for headers]                         Get:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsasl2-modules-db arm64 2.1.27+dfsg2-3ubuntu1.1 [21.2 kB]
+16% [3 libsasl2-modules-db 1784 B/21.2 kB 8%]                                             19% [Waiting for headers]                         Get:4 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsasl2-2 arm64 2.1.27+dfsg2-3ubuntu1.1 [55.6 kB]
+19% [4 libsasl2-2 2071 B/55.6 kB 4%]                                    24% [Waiting for headers]                         Get:5 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libldap-2.5-0 arm64 2.5.13+dfsg-0ubuntu0.22.04.1 [181 kB]
+25% [5 libldap-2.5-0 2738 B/181 kB 2%]                                      38% [Waiting for headers]                         Get:6 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 librtmp1 arm64 2.4+20151223.gitfa8646d.1-2build4 [59.2 kB]
+38% [6 librtmp1 1497 B/59.2 kB 3%]                                  44% [Waiting for headers]                         Get:7 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libssh-4 arm64 0.9.6-2build1 [184 kB]
+44% [7 libssh-4 1402 B/184 kB 1%]                                 57% [Waiting for headers]                         Get:8 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libcurl4 arm64 7.81.0-1ubuntu1.7 [284 kB]
+58% [8 libcurl4 4393 B/284 kB 2%]                                 78% [Waiting for headers]                         Get:9 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 curl arm64 7.81.0-1ubuntu1.7 [190 kB]
+78% [9 curl 1458 B/190 kB 1%]                             92% [Waiting for headers]                         Get:10 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libldap-common all 2.5.13+dfsg-0ubuntu0.22.04.1 [15.9 kB]
+92% [10 libldap-common 2405 B/15.9 kB 15%]                                          94% [Waiting for headers]                         Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsasl2-modules arm64 2.1.27+dfsg2-3ubuntu1.1 [57.1 kB]
+95% [11 libsasl2-modules 8010 B/57.1 kB 14%]                                            100% [Working]              Fetched 1234 kB in 2s (812 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libpsl5:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5324 files and directories currently installed.)
+Preparing to unpack .../00-libpsl5_0.21.0-1.2build2_arm64.deb ...
+Unpacking libpsl5:arm64 (0.21.0-1.2build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../01-publicsuffix_20211207.1025-1_all.deb ...
+Unpacking publicsuffix (20211207.1025-1) ...
+Selecting previously unselected package libsasl2-modules-db:arm64.
+Preparing to unpack .../02-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.1_arm64.deb ...
+Unpacking libsasl2-modules-db:arm64 (2.1.27+dfsg2-3ubuntu1.1) ...
+Selecting previously unselected package libsasl2-2:arm64.
+Preparing to unpack .../03-libsasl2-2_2.1.27+dfsg2-3ubuntu1.1_arm64.deb ...
+Unpacking libsasl2-2:arm64 (2.1.27+dfsg2-3ubuntu1.1) ...
+Selecting previously unselected package libldap-2.5-0:arm64.
+Preparing to unpack .../04-libldap-2.5-0_2.5.13+dfsg-0ubuntu0.22.04.1_arm64.deb ...
+Unpacking libldap-2.5-0:arm64 (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package librtmp1:arm64.
+Preparing to unpack .../05-librtmp1_2.4+20151223.gitfa8646d.1-2build4_arm64.deb ...
+Unpacking librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Selecting previously unselected package libssh-4:arm64.
+Preparing to unpack .../06-libssh-4_0.9.6-2build1_arm64.deb ...
+Unpacking libssh-4:arm64 (0.9.6-2build1) ...
+Selecting previously unselected package libcurl4:arm64.
+Preparing to unpack .../07-libcurl4_7.81.0-1ubuntu1.7_arm64.deb ...
+Unpacking libcurl4:arm64 (7.81.0-1ubuntu1.7) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../08-curl_7.81.0-1ubuntu1.7_arm64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.7) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../09-libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libsasl2-modules:arm64.
+Preparing to unpack .../10-libsasl2-modules_2.1.27+dfsg2-3ubuntu1.1_arm64.deb ...
+Unpacking libsasl2-modules:arm64 (2.1.27+dfsg2-3ubuntu1.1) ...
+Setting up libpsl5:arm64 (0.21.0-1.2build2) ...
+Setting up libsasl2-modules:arm64 (2.1.27+dfsg2-3ubuntu1.1) ...
+Setting up libldap-common (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Setting up libsasl2-modules-db:arm64 (2.1.27+dfsg2-3ubuntu1.1) ...
+Setting up librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Setting up libsasl2-2:arm64 (2.1.27+dfsg2-3ubuntu1.1) ...
+Setting up libssh-4:arm64 (0.9.6-2build1) ...
+Setting up publicsuffix (20211207.1025-1) ...
+Setting up libldap-2.5-0:arm64 (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Setting up libcurl4:arm64 (7.81.0-1ubuntu1.7) ...
+Setting up curl (7.81.0-1ubuntu1.7) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+[?2004h]0;root@282d95780471: /root@282d95780471:/# [7mnode /usr/src/app/index.js[27mnode /usr/src/app/index.js
+[?2004lHello World
+[?2004h]0;root@282d95780471: /root@282d95780471:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Daniels-Air/Users/ddcastro/Development/part12-containers-applications/script-answers]2;ddcastro@Daniels-Air]1;..cript-answers]7;file://Daniels-Air/Users/ddcastro/Development/part12-containers-applications/script-answers[0m[27m[24m[J[[31m14:50[39m] [36mddcastro[39m [32mscript-answers[39m on [35mmain[39m [37m#[39m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Wed Feb  8 14:50:30 2023

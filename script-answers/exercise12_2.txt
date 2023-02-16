@@ -1,0 +1,60 @@
+Script started on Tue Feb  7 17:56:48 2023
+]7;file://Daniels-MacBook-Air.local/Users/ddcastro[1m[7m%[27m[1m[0m                                                                                                                                   
+ 
+]7;file://Daniels-MacBook-Air.local/Users/ddcastro]2;ddcastro@Daniels-MacBook-Air]1;~]7;file://Daniels-MacBook-Air.local/Users/ddcastro
+[0m[27m[24m[J[[31m17:56[39m] [36mddcastro[39m [32m~[39m  [37m#[39m [K[?1h=[?2004hddocket run -it ubuntu bash[?1l>[?2004l
+
+]2;docket run -it ubuntu bash]1;docketzsh: command not found: docket
+[1m[7m%[27m[1m[0m                                                                                                                                   
+ 
+]7;file://Daniels-MacBook-Air.local/Users/ddcastro]2;ddcastro@Daniels-MacBook-Air]1;~]7;file://Daniels-MacBook-Air.local/Users/ddcastro
+[0m[27m[24m[J[[31m17:57[39m] [36mddcastro[39m [32m~[39m  [37m#[39m [K[?1h=[?2004hdocket run -it ubuntu bash[P[20C [21Dr run -it ubuntu bash[20D[?1l>[?2004l
+
+]2;docker run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K
+8b150fd943bc: Pulling fs layer 
+[1B[1A[2K
+8b150fd943bc: Downloading [>                                                  ]  278.5kB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Downloading [==========>                                        ]   5.88MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Downloading [===========================>                       ]  14.84MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Downloading [===========================================>       ]  23.79MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Verifying Checksum 
+[1B[1A[2K
+8b150fd943bc: Download complete 
+[1B[1A[2K
+8b150fd943bc: Extracting [>                                                  ]  294.9kB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Extracting [=================>                                 ]  9.437MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Extracting [=====================================>             ]  20.64MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Extracting [===============================================>   ]  26.25MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Extracting [==================================================>]  27.34MB/27.34MB
+[1B[1A[2K
+8b150fd943bc: Pull complete 
+[1BDigest: sha256:9a0bdde4188b896a372804be2384015e90e3f84906b750c1a53539b585fbbe7f
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@282d95780471: /root@282d95780471:/# 
+[K]0;root@282d95780471: /root@282d95780471:/# mkdir [7m/usr/src/app[27m/usr/src/app
+[?2004l
+[?2004h]0;root@282d95780471: /root@282d95780471:/# touch [7musr/src/app/index.js[27musr/src/app/index.js [1@/
+[?2004l
+[?2004h]0;root@282d95780471: /root@282d95780471:/# [Kexit
+[?2004l
+exit
+[1m[7m%[27m[1m[0m                                                                                                                                   
+ 
+]7;file://Daniels-MacBook-Air.local/Users/ddcastro]2;ddcastro@Daniels-MacBook-Air]1;~]7;file://Daniels-MacBook-Air.local/Users/ddcastro
+[0m[27m[24m[J[[31m17:58[39m] [36mddcastro[39m [32m~[39m  [37m#[39m [K[?1h=[?2004heexit[?1l>[?2004l
+
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Tue Feb  7 17:58:10 2023

@@ -1,0 +1,11 @@
+<HTML><meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/javascript">
+function go_now(){ window.location.href = "http://192.168.1.1/TrafficImportantUpdate.htm";}
+</script>
+<BODY onLoad="go_now()">
+You should be redirected now.  If not, click <a href="http://192.168.1.1/TrafficImportantUpdate.htm">here.</a>
+</BODY>
+</HTML>
