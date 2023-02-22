@@ -24,7 +24,7 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
         const notDoneInfo = (
           <>
             <span>
-              This todo is not done
+              Not done (yet)!
             </span>
             <span>
               <button onClick={onClickDelete(todo)}> Delete </button>
